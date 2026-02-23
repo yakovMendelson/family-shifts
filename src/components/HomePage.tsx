@@ -36,6 +36,11 @@ export default function HomePage() {
     );
   }
 
+  if (!user) {
+    if (typeof window !== 'undefined') window.location.href = '/login';
+    return null;
+  }
+
   return (
     <div className="min-h-screen bg-background">
       <Header user={user} />

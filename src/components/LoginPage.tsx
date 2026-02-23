@@ -55,7 +55,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="w-full max-w-sm bg-card rounded-2xl shadow-lg p-8">
-        <h1 className="text-2xl font-bold text-center mb-2">תורנויות משפחתיות</h1>
+        <h1 className="text-2xl font-bold text-center mb-2">תורנויות</h1>
         <p className="text-muted text-center mb-8 text-sm">התחברות למערכת</p>
 
         <div className="space-y-4">

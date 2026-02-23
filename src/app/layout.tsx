@@ -2,8 +2,13 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "תורנויות משפחתיות",
+  title: "תורנויות",
   description: "ניהול תורנויות ביקור בבית חולים",
+  openGraph: {
+    title: "תורנויות",
+    description: "ניהול תורנויות ביקור בבית חולים",
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {
